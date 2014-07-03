@@ -2,6 +2,7 @@
 --------------------------------
 -- @module RenderTexture
 -- @extend Node
+-- @parent_module cc
 
 --------------------------------
 -- @function [parent=#RenderTexture] setVirtualViewport 
@@ -64,14 +65,15 @@
 -- @param self
         
 --------------------------------
--- overload function: saveToFile(string, cc.Image::Format)
+-- overload function: saveToFile(string, cc.Image::Format, bool)
 --          
--- overload function: saveToFile(string)
+-- overload function: saveToFile(string, bool)
 --          
 -- @function [parent=#RenderTexture] saveToFile
 -- @param self
 -- @param #string str
 -- @param #cc.Image::Format format
+-- @param #bool bool
 -- @return bool#bool ret (retunr value: bool)
 
 --------------------------------
